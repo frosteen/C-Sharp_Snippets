@@ -1,0 +1,13 @@
+Install Costura.Fody
+Install Fody
+Create FodyWeavers.xml
+
+FodyWeavers.xml:
+<?xml version="1.0" encoding="utf-8"?>
+<Weavers>
+  <Costura>
+    <IncludeAssemblies>
+      Newtonsoft.Json
+    </IncludeAssemblies>
+  </Costura>
+</Weavers>
